@@ -4,6 +4,8 @@ Calculateur d'adresses réseau et broadcast.
 Permet de calculer l'adresse réseau et broadcast à partir d'une IP et d'un masque.
 """
 
+from __future__ import annotations
+
 import sys
 import re
 
